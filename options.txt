@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\ПО НТ\Task5.1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\по нт\task5.1\\logfile.log
+d:\по нт\task5.1\\combined_Task5.1.c
+d:\по нт\task5.1\\pre_cci.c

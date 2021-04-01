@@ -1,0 +1,17 @@
+Action.c(51): Denver
+Action.c(52): 04/01/2021
+Action.c(53): Sydney
+Action.c(54): 04/05/2021
+Action.c(55): Window
+Action.c(56): Bussiness
+Action.c(106): Andrei
+Action.c(107): Bob
+Action.c(51): London
+Action.c(52): 04/01/2021
+Action.c(53): Seattle
+Action.c(54): 04/05/2021
+Action.c(55): None
+Action.c(56): Coach
+Action.c(106): Andrei
+Action.c(107): Bob
+Vuser Terminated.
