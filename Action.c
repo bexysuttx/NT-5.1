@@ -2,11 +2,33 @@ Action()
 {
 	int i;
 	char* s;
+	char *dCity;
+	char *aCity;
+	char * fName;
+	char * lName;
+	char * seatf;
+	char * typef;
 	int random;
 	s=lr_eval_string("{ticketCount}");
 	random=atoi(s);
 	
+	
 	for (i=1;i<=random;i++) {
+		
+			dCity=lr_eval_string("{city}");
+	aCity=lr_eval_string("{city2}");
+	fName=lr_eval_string("{name}");
+	lName=lr_eval_string("{lastname}");
+	seatf=lr_eval_string("{seat}");
+	typef=lr_eval_string("{type}");
+	
+	lr_save_string(dCity,"dCity");
+	lr_save_string(aCity,"aCity");
+	lr_save_string(fName,"fName");
+	lr_save_string(lName,"lName");
+	lr_save_string(seatf,"seatf");
+	lr_save_string(typef,"typef");
+	
 	web_url("Search Flights Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
 		"TargetFrame=body", 
@@ -34,13 +56,13 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=depart", "Value={city}", ENDITEM, 
+		"Name=depart", "Value={dCity}", ENDITEM, 
 		"Name=departDate", "Value={departDate}", ENDITEM, 
-		"Name=arrive", "Value={city2}", ENDITEM, 
+		"Name=arrive", "Value={aCity}", ENDITEM, 
 		"Name=returnDate", "Value={returnDate}", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=seatPref", "Value={seat}", ENDITEM, 
-		"Name=seatType", "Value={type}", ENDITEM, 
+		"Name=seatPref", "Value={seatf}", ENDITEM, 
+		"Name=seatType", "Value={typef}", ENDITEM, 
 		"Name=.cgifields", "Value=roundtrip", ENDITEM, 
 		"Name=.cgifields", "Value=seatType", ENDITEM, 
 		"Name=.cgifields", "Value=seatPref", ENDITEM, 
@@ -48,12 +70,12 @@ Action()
 		"Name=findFlights.y", "Value=7", ENDITEM, 
 		LAST);
 		
-		lr_output_message("%s",lr_eval_string("{city}"));
+		lr_output_message("%s",lr_eval_string("{dCity}"));
 			lr_output_message("%s",lr_eval_string("{departDate}"));
-				lr_output_message("%s",lr_eval_string("{city2}"));
+				lr_output_message("%s",lr_eval_string("{aCity}"));
 					lr_output_message("%s",lr_eval_string("{returnDate}"));
-						lr_output_message("%s",lr_eval_string("{seat}"));
-							lr_output_message("%s",lr_eval_string("{type}"));
+						lr_output_message("%s",lr_eval_string("{seatf}"));
+							lr_output_message("%s",lr_eval_string("{typef}"));
 
 	web_submit_data("reservations.pl_2", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -67,8 +89,8 @@ Action()
 		"Name=outboundFlight", "Value={ofFlight}", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=seatType", "Value={type}", ENDITEM, 
-		"Name=seatPref", "Value={seat}", ENDITEM, 
+		"Name=seatType", "Value={typef}", ENDITEM, 
+		"Name=seatPref", "Value={seatf}", ENDITEM, 
 		"Name=reserveFlights.x", "Value=56", ENDITEM, 
 		"Name=reserveFlights.y", "Value=7", ENDITEM, 
 		LAST);
@@ -83,17 +105,17 @@ Action()
 		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=firstName", "Value={name}", ENDITEM, 
-		"Name=lastName", "Value={lastname}", ENDITEM, 
+		"Name=firstName", "Value={fName}", ENDITEM, 
+		"Name=lastName", "Value={lName}", ENDITEM, 
 		"Name=address1", "Value=", ENDITEM, 
 		"Name=address2", "Value=", ENDITEM, 
-		"Name=pass1", "Value={name} {lastname}", ENDITEM, 
+		"Name=pass1", "Value={fName} {lName}", ENDITEM, 
 		"Name=creditCard", "Value=", ENDITEM, 
 		"Name=expDate", "Value=", ENDITEM, 
 		"Name=oldCCOption", "Value=", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=seatType", "Value={type}", ENDITEM, 
-		"Name=seatPref", "Value={seat}", ENDITEM, 
+		"Name=seatType", "Value={typef}", ENDITEM, 
+		"Name=seatPref", "Value={seatf}", ENDITEM, 
 		"Name=outboundFlight", "Value={ofFlight}", ENDITEM, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
 		"Name=returnFlight", "Value=", ENDITEM, 
@@ -103,8 +125,8 @@ Action()
 		"Name=buyFlights.y", "Value=4", ENDITEM, 
 		LAST);
 							
-							lr_output_message("%s",lr_eval_string("{name}"));
-			lr_output_message("%s",lr_eval_string("{lastname}"));
+							lr_output_message("%s",lr_eval_string("{fName}"));
+			lr_output_message("%s",lr_eval_string("{lName}"));
 	
 	}
 	return 0;

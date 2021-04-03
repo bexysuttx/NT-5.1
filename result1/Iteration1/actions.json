@@ -6,49 +6,169 @@
                 "stepId": "STEP3",
                 "stepName": "Url: Search Flights Button",
                 "infFile": "t3.inf",
-                "time": 1617278355251
+                "time": 1617447427296
             },
             {
                 "stepId": "STEP4",
                 "stepName": "Submit Data: reservations.pl",
                 "infFile": "t4.inf",
-                "time": 1617278355515
+                "time": 1617447431531
             },
             {
                 "stepId": "STEP5",
                 "stepName": "Submit Data: reservations.pl_2",
                 "infFile": "t5.inf",
-                "time": 1617278355836
+                "time": 1617447431928
             },
             {
                 "stepId": "STEP6",
                 "stepName": "Submit Data: reservations.pl_3",
                 "infFile": "t6.inf",
-                "time": 1617278356200
+                "time": 1617447432142
             },
             {
                 "stepId": "STEP7",
                 "stepName": "Url: Search Flights Button",
                 "infFile": "t7.inf",
-                "time": 1617278356552
+                "time": 1617447432628
             },
             {
                 "stepId": "STEP8",
                 "stepName": "Submit Data: reservations.pl",
                 "infFile": "t8.inf",
-                "time": 1617278356918
+                "time": 1617447432945
             },
             {
                 "stepId": "STEP9",
                 "stepName": "Submit Data: reservations.pl_2",
                 "infFile": "t9.inf",
-                "time": 1617278357283
+                "time": 1617447433224
             },
             {
                 "stepId": "STEP10",
                 "stepName": "Submit Data: reservations.pl_3",
                 "infFile": "t10.inf",
-                "time": 1617278357643
+                "time": 1617447433415
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t11.inf",
+                "time": 1617447434028
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t12.inf",
+                "time": 1617447434265
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t13.inf",
+                "time": 1617447434589
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t14.inf",
+                "time": 1617447434796
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t15.inf",
+                "time": 1617447436551
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t16.inf",
+                "time": 1617447439772
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t17.inf",
+                "time": 1617447444138
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t18.inf",
+                "time": 1617447444493
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t19.inf",
+                "time": 1617447445065
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t20.inf",
+                "time": 1617447445284
+            },
+            {
+                "stepId": "STEP21",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t21.inf",
+                "time": 1617447447768
+            },
+            {
+                "stepId": "STEP22",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t22.inf",
+                "time": 1617447447985
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t23.inf",
+                "time": 1617447448501
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t24.inf",
+                "time": 1617447448835
+            },
+            {
+                "stepId": "STEP25",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t25.inf",
+                "time": 1617447449133
+            },
+            {
+                "stepId": "STEP26",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t26.inf",
+                "time": 1617447450219
+            },
+            {
+                "stepId": "STEP27",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t27.inf",
+                "time": 1617447450853
+            },
+            {
+                "stepId": "STEP28",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t28.inf",
+                "time": 1617447451087
+            },
+            {
+                "stepId": "STEP29",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t29.inf",
+                "time": 1617447451387
+            },
+            {
+                "stepId": "STEP30",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t30.inf",
+                "time": 1617447451595
             }
         ],
         "transactions": []

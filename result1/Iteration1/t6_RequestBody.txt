@@ -1,4 +1,3 @@
-"firstName=Andrei&lastName=Bob&address1=&address2=&pass1=Andrei+Bob&creditCard=&expDate=&oldCCO"
-"ption=&numPassengers=1&seatType=First&seatPref=Aisle&outboundFlight=070%3B548%3B04%2F01%2F2021"
-"&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=32&buyFlights"
-".y=4"
+"firstName=Kent&lastName=Rot&address1=&address2=&pass1=Kent+Rot&creditCard=&expDate=&oldCCOptio"
+"n=&numPassengers=1&seatType=First&seatPref=None&outboundFlight=080%3B1485%3B04%2F03%2F2021&adv"
+"anceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=32&buyFlights.y=4"
